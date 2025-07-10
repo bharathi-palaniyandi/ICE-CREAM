@@ -1,0 +1,965 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container nav{
+    background-color:#D70654;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container nav ul {
+    display: flex;
+    margin-right: 100px;
+    list-style: none;
+}
+.container nav ul li{
+    margin-left: 10px;
+    padding: 20px;
+    
+}
+.container nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+}
+.container nav ul li a:hover{
+   box-shadow: 0px 0px 15px 4px white;
+   background-color: black;
+   border-radius: 9px;
+}
+.logo{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.img img{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    filter: brightness(0.2);
+ }
+ 
+
+.conboud{
+   position: relative;
+}
+.faves h3{
+   position: absolute;
+   top: 30%;
+   left: 35%;
+   color: white;
+   font-size: 35px;
+   text-transform: capitalize;
+   z-index: 2;
+}
+.faves p{
+   position: absolute;
+   z-index: 2;
+   top:40% ;
+   left: 32%;
+   text-align: center ;
+   width: 600px;
+   font-size: 20px;
+   color: white;
+   font-style: italic;
+}
+.faves button{
+   position: absolute;
+   z-index: 2;
+   top: 50%;
+   left: 45%;
+   height: 50px;
+   width: 200px;
+   font-size: 19px;
+   text-transform: capitalize;
+   background-color:blue;
+   color: white;
+   border-radius: 12px;
+   border: none;
+}
+
+
+
+ .container-02{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f0eaeb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .iceimg img{
+    height: 450px;
+    width: 700px;
+   
+    border-bottom-left-radius: 150px;
+ }
+ .icepara h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 20px;
+ }
+ .icepara p{
+    width: 400px;
+    margin-top: 20px;
+    font-size: 17px;
+ }
+ .more p{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin-left: 20px;
+ }
+ .moreimg img{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50%;
+
+     
+ }
+ .moreimg p{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding-bottom: 10px;
+ }
+ .iceimage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .container-03{
+    background-color: rgb(254, 253, 255);
+ }
+ .card{
+   border: 1px solid black;
+   width: 270px;
+   border: none;
+   box-shadow: 10px 10px 10px 10px rgb(201, 198, 198);
+}
+.card:hover{
+   box-shadow: 0px 0px 10px 1px black;
+   transform: rotateX(20deg);
+}
+.card img{
+   height: 250px;
+   width: 270px;
+   border-top-right-radius: 110px;
+   border-bottom-left-radius: 50%;
+
+}
+.name p{
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: 700;
+   font-size: 20px;
+}
+.price p{
+   text-align: right;
+   margin-right: 20px;
+   font-size: 17px;
+   font-weight: 600;
+}
+.buttice button{
+       margin-bottom: 20px;
+   margin-left:70px;
+   height: 40px;
+   width: 120px;
+   font-size: 17px;
+   text-transform: capitalize;
+   border-radius: 10px;
+   background-color: purple;
+   color: wheat;
+   border: none;
+}
+.bttice button img{
+   height: 10px;
+   width: 20px;
+}
+.container-04{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 40px;
+}
+ .protitle p{
+   margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+ }
+
+.container-05{
+   background-color: rgb(243, 190, 92);
+   padding-bottom: 20px;
+   padding-top: 50px;
+   margin-top: 20px;
+}
+
+.review h1{
+   text-align: center;
+   padding-bottom: 50px;
+   padding-top: 30px;
+   font-size: 35px;
+   text-transform: capitalize;
+   font-style: italic;
+}
+.review video{
+margin-bottom: 40px;
+   width: 100%;
+   border-radius: 50px;
+}
+.container-066{
+   background-color: #dd5d8c;
+}
+
+.order h2{
+   padding-top: 10px;
+   text-align: center;
+   padding-bottom: 5px;
+   margin-left: 10px;
+   font-size: 25px;
+   text-transform: uppercase;
+   font-style: italic;
+   color: whitesmoke;
+}
+.orderimage img{
+   height: 50px;
+   width: 150px;
+   margin-top: 20px;
+   padding-left: 10px;
+}
+.orderimage{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 30px;
+   padding-top: 30px;
+}
+
+.beyond{
+   position: relative;
+   background-color: white;
+}
+.beyond img{
+   width: 500px;
+   height: 250px;
+   border-top-left-radius:70px;
+   border-bottom-left-radius: 20px;
+}
+.beyond h2{
+   position: absolute;
+   top: 30%;
+   left: 6%;
+   font-size: 35px;
+   font-weight: 900;
+   text-transform: capitalize;
+}
+.beyond p{
+   position: absolute;
+   top: 50%;
+   left: 6%;
+   font-size: 20px;
+   width: 200px;
+   text-transform: capitalize;
+}
+.bey{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   padding-top: 50px;
+}
+.foot{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.help h2{
+   font-size: 22px;
+   text-transform: uppercase;
+   font-style: italic;
+}
+.help p{
+   text-transform: capitalize;
+   margin-top: 10px;
+   font-size: 18px;
+   font-style: italic;
+}
+.about h2{
+   font-size: 22px;
+   text-transform: uppercase;
+   font-style: italic;
+}
+.about p{
+   text-transform: capitalize;
+   margin-top: 10px;
+   font-size: 18px;
+   font-style: italic;
+}
+.products h2{
+   font-size: 22px;
+   text-transform: uppercase;
+   font-style: italic;
+}
+.products p{
+   text-transform: capitalize;
+   margin-top: 10px;
+   font-size: 18px;
+   font-style: italic;
+}
+.contat h2{
+   font-size: 22px;
+   text-transform: uppercase;
+   font-style: italic;
+}
+.contat p{
+   text-transform: capitalize;
+   margin-top: 10px;
+   font-size: 18px;
+   font-style: italic;
+}
+.contat img{
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.contat{
+   background-color: black;
+   color: white;
+}
+.copy p{
+    margin-left: 20px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.container-07{
+   padding-top: 30px;
+   background-color: black;
+   color: white;
+   padding-bottom: 30px;
+}
+.contain{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   background-color: #e4afb2;
+}
+.aboimg img{
+   height: 500px;
+   width: 550px;
+   object-fit: cover;
+   border-top-left-radius:30pc ;
+}
+.abous h2{
+   margin-top: 50px;
+   font-size: 25px;
+   text-transform: uppercase;
+}
+.abous p{
+   margin-top: 30px;
+   width: 600px;
+   font-size: 19px;
+   text-align: justify;
+}
+.abocom h2{
+   font-size: 20px;
+   text-transform: uppercase;
+}
+.abocom p{
+   width: 600px;
+   font-size: 18px;
+}
+.radious img{
+   height: 300px;
+   width: 300px;
+   border: 1px solid black;
+   border-radius: 20%;
+   border: none;
+}
+.our h2{
+   margin-left: 20px;
+   font-size: 25px;
+   text-transform: uppercase;
+}
+.radious{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding-top: 30px;
+}
+.contain2{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   background-color: pink;
+}
+
+.ourprod h2{
+   text-align: center;
+   font-size: 30px;
+   text-transform: uppercase;
+   padding-top: 30px;
+   padding-bottom: 20px;
+}
+.ourpro{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 40px;  
+}
+.conta2{
+   padding-bottom: 20px;
+}
+.contailoca h2{
+   font-size: 25px;
+   text-align: center;
+   text-transform: uppercase;
+   padding-top: 20px;
+   padding-bottom: 50px;
+}
+.local iframe{
+   width: 100%;
+}
+/* location */
+
+.locations-section {
+   padding: 60px 20px;
+   text-align: center;
+ }
+ 
+ .locations-section h2 {
+   font-size: 2rem;
+   margin-bottom: 10px;
+   color: #5a2d14;
+ }
+ 
+ .subtitle {
+   font-size: 1.1rem;
+   color: #7a5c4b;
+   margin-bottom: 40px;
+ }
+ 
+ .locations-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+ }
+ 
+ .location-card {
+   background-color: #fff;
+   border: 1px solid #f2d5b3;
+   border-radius: 12px;
+   padding: 20px;
+   width: 250px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+   text-align: left;
+ }
+ 
+ .location-card h3 {
+   margin-top: 0;
+   color: #d94e58;
+ }
+ 
+ .map-placeholder {
+   margin-top: 50px;
+   padding: 50px;
+   background-color: #f0e3ca;
+   border-radius: 12px;
+   font-size: 1.2rem;
+   color: #7a5c4b;
+ }
+.conimag img{
+   height: 300px;
+   width: 500px;
+   padding-top: 20px;
+}
+.street h2{
+   padding-top: 90px;
+   font-size: 30px;
+   text-transform: capitalize;
+}
+.street p{
+   text-transform: capitalize;
+   margin-top: 10px;
+}
+
+.partner-section {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 60px 10%;
+   background-color: #fff;
+   align-items: center;
+ }
+ 
+ .partner-text {
+   flex: 1;
+   min-width: 280px;
+   margin-right: 40px;
+ }
+ 
+ .partner-text h2 {
+   font-size: 2rem;
+   color: #5a2d14;
+   font-weight: bold;
+   margin-bottom: 20px;
+ }
+ 
+ .partner-text p {
+   font-size: 1.1rem;
+   line-height: 1.6;
+   color: #444;
+ }
+ 
+ .partner-form {
+   flex: 1;
+   min-width: 280px;
+ }
+ 
+ .partner-form form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .partner-form input,
+ .partner-form textarea {
+   margin-bottom: 15px;
+   padding: 12px;
+   border: none;
+   border-radius: 8px;
+   background-color: #f8e9cc;
+   font-size: 1rem;
+ }
+ 
+ .partner-form button {
+   background-color: #d94e58;
+   color: white;
+   padding: 12px;
+   border: none;
+   border-radius: 25px;
+   font-size: 1.1rem;
+   font-weight: bold;
+   cursor: pointer;
+   width: 120px;
+ }
+ 
+ .partner-form button:hover {
+   background-color: #c64049;
+ }
+ 
+
+.cooonet{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.connet{
+   padding-bottom: 10px;
+   background-color: rgb(247, 227, 230);
+}
+
+
+ 
+ @media(max-width:768px){
+    .container nav{
+      background-color:#D70654;
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .container nav ul {
+        display: block;
+        margin-right: 0px;
+        list-style: none;
+        margin-top: 10px;
+    }
+    .container nav ul li{
+        margin-left: 10px;
+        padding: 10px;
+        margin-top: -10px;
+        
+    }
+    .container nav ul li a{
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .logo{
+        color: white;
+        margin-left: 20px;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .img img{
+        width: 100%;
+        height: 650px;
+        object-fit: cover;
+        filter: brightness(0.5)
+    }
+    .conboud{
+      position: relative;
+   }
+   .faves h3{
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      color: white;
+      font-size: 20px;
+      text-transform: capitalize;
+      z-index: 2;
+   }
+   .faves p{
+      position: absolute;
+      z-index: 2;
+      top:40% ;
+      left: 4%;
+      text-align: center ;
+      width: 300px;
+      font-size: 15px;
+      color: white;
+      font-style: italic;
+   }
+   .faves button{
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      left: 17%;
+      height: 50px;
+      width: 200px;
+      font-size: 15px;
+      text-transform: capitalize;
+      background-color:blue;
+      color: white;
+      border-radius: 12px;
+      border: none;
+   }
+    .container-02{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+     }
+     .iceimg img{
+        width: 100%;
+        height: 100%;
+     }
+     .icepara h2{
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-top: 20px;
+     }
+     .icepara p{
+        width: 300px;
+        margin-top: 20px;
+        font-size: 17px;
+        text-align: justify;
+     }
+     .more p{
+        font-size: 23px;
+        text-transform: capitalize;
+        margin-top: 10px;
+        font-weight: 900;
+     }
+     .moreimg img{
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
+     }
+     .moreimg p{
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-left: 70px;
+     }
+     .iceimage{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+     }
+     .images img{
+        height: 200px;
+        width: 170px;
+        margin-left: 40px;
+     }
+     .images{
+        border: 1px solid black;
+        width: 250px;
+        
+     }
+     .name p{
+        text-align: center;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 600;
+     }
+     .price p{
+        text-align: right;
+        margin-right: 20PX;
+        margin-top: 5px;
+        font-size: 17px;
+        font-weight: 600;
+        color: springgreen;
+     }
+     .icebutt button{
+        height: 40px;
+        width: 140px;
+        margin-left: 50px;
+        margin-top: 5PX;
+        margin-bottom: 10px;
+        font-size: 14PX;
+        text-transform: uppercase;
+        background-color: purple;
+        color: white;
+        border: none;
+        border-radius: 15px;
+     }
+     .container-04{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;  
+     }
+     .protitle p{
+    
+        margin-top: 20px;
+        padding-bottom: 20px;
+        font-size: 25px;
+        text-transform: uppercase;
+     }
+     .container-05{
+      background-color: rgb(243, 190, 92);
+   }
+   .order h2{
+      padding-top: 10px;
+      text-align: center;
+      padding-bottom: 5px;
+      margin-left: 10px;
+      font-size: 23px;
+      text-transform: uppercase;
+   }
+   .orderimage img{
+      height: 50px;
+      width: 200px;
+      margin-top: 20px;
+   }
+   .orderimage{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+   }
+   .review h1{
+   text-align: center;
+   padding-bottom: 50px;
+   padding-top: 30px;
+   font-size: 23px;
+   text-transform: capitalize;
+   font-style: italic;
+}
+.review video{
+margin-bottom: 40px;
+   width: 100%;
+   border-radius: 50px;
+}
+   
+   .beyond{
+      position: relative;
+   }
+   .beyond img{
+      width: 100%;
+      height: 250px;
+   }
+   .beyond h2{
+      position: absolute;
+      top: 30%;
+      left: 6%;
+      font-size: 25px;
+      font-weight: 900;
+      text-transform: capitalize;
+   }
+   .beyond p{
+      position: absolute;
+      top: 50%;
+      left: 6%;
+      font-size: 20px;
+      width: 200px;
+      text-transform: capitalize;
+   }
+   .bey{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 30px;
+      margin-bottom: 30px;
+   }
+   .foot{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+   }
+   .help h2{
+      font-size: 20px;
+      text-transform: uppercase;
+   }
+   .help p{
+      text-transform: capitalize;
+      margin-top: 10px;
+      font-size: 15px;
+   }
+   .about h2{
+      font-size: 20px;
+      text-transform: uppercase;
+   }
+   .about p{
+      text-transform: capitalize;
+      margin-top: 10px;
+      font-size: 15px;
+   }
+   .products h2{
+      font-size: 20px;
+      text-transform: uppercase;
+   
+   }
+   .products p{
+      text-transform: capitalize;
+      margin-top: 10px;
+      font-size: 15px;
+   }
+   .contat h2{
+      font-size: 20px;
+      text-transform: uppercase;
+   }
+   .contat p{
+      text-transform: capitalize;
+      margin-top: 10px;
+      font-size: 15px;
+   }
+   .contat{
+      background-color: black;
+      color: white;
+   }
+   .contat img{
+      margin-top: 10px;
+      margin-left: 10px;
+   }
+   .copy p{
+       margin-left: 20px;
+       margin-top: 20px;
+       text-transform: capitalize;
+   }
+   .container-07{
+      padding-top: 30px;
+      background-color: black;
+      color: white;
+      padding-bottom: 30px;
+   }
+   .contain{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: rgb(241, 241, 245);
+      color: rgb(22, 21, 21);
+   }
+   .aboimg img{
+      height: 500px;
+      width: 100%;
+   }
+   .abous h2{
+      margin-top: 50px;
+      font-size: 22px;
+      text-transform: uppercase;
+   }
+   .abous p{
+      margin-top: 30px;
+      width: 300px;
+      font-size: 19px;
+      text-align: justify;
+   }
+   .abocom h2{
+      font-size: 20px;
+      text-transform: uppercase;
+   }
+   .abocom p{
+      width: 600px;
+      font-size: 18px;
+   }
+   .radious img{
+      height: 250px;
+      width: 300px;
+      border: 1px solid black;
+     border-radius: 90%;
+      border: none;
+      margin-top: 10px;
+   }
+   .our h2{
+      font-size: 25px;
+      text-transform: uppercase;
+   }
+   .radious{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    
+   }
+   .contain2{
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+   
+   .ourprod h2{
+      text-align: center;
+      font-size: 30px;
+      text-transform: uppercase;
+      padding-top: 30px;
+      padding-bottom: 20px;
+   }
+   .ourpro{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;  
+   }
+   .contailoca h2{
+      font-size: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 20px;
+      padding-bottom: 50px;
+   }
+   .local iframe{
+      width: 100%;
+   }
+   .conimag img{
+      height: 300px;
+      width: 100%;
+      padding-top: 20px;
+   }
+   .street h2{
+      padding-top: 90px;
+      font-size: 30px;
+   }
+   .street p{
+      text-transform: capitalize;
+   }
+   .con{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+  
+ }
+

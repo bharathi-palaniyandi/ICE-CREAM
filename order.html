@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ice Cream Order</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fef6f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #d63384;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .toppings {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .toppings label {
+      font-weight: normal;
+    }
+
+    input[type="submit"] {
+      background-color: #d63384;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      margin-top: 20px;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+   <a href="./index.html"><h2>Order Your Ice Cream</h2></a> 
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="flavor">Choose Flavor:</label>
+      <select id="flavor" name="flavor" required>
+        <option value="">-- Select a flavor --</option>
+        <option value="vanilla">Vanilla</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="mango">Mango</option>
+      </select>
+
+      <label>Toppings:</label>
+      <div class="toppings">
+        <label><input type="checkbox" name="toppings" value="sprinkles"> Sprinkles</label>
+        <label><input type="checkbox" name="toppings" value="nuts"> Nuts</label>
+        <label><input type="checkbox" name="toppings" value="cherry"> Cherry</label>
+        <label><input type="checkbox" name="toppings" value="chocolate-chips"> Chocolate Chips</label>
+      </div>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+      <label for="address">Delivery Address:</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <input type="submit" value="Place Order">
+    </form>
+  </div>
+
+</body>
+</html>
